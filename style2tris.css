@@ -1,0 +1,39 @@
+.counter {
+  text-align: center;
+  border: 2px solid purple;
+  padding: 20px;
+  background-color: lavender;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: purple;
+}
+
+#counter-value {
+  font-size: 48px;
+  color: green;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: darkviolet;
+}
+
